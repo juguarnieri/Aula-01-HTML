@@ -23,9 +23,15 @@ header {
   border-radius: 6px;
   height: 150px;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /*vertical*/
+  flex-direction: row;
+  justify-content: space-around; /*vertical*/
   align-items: center; /*horizontal*/
+}
+
+#image-profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
 #principal {
@@ -62,12 +68,12 @@ footer {
 }
 
 footer p {
-  color: rgb(7, 66, 43);
+  color: rgb(22, 138, 93);
   font-size: 1.2rem;
 }
 
 footer a {
-  color: rgb(7, 75, 10);
+  color: rgb(41, 46, 62);
   text-decoration: none;
   font-weight: 500;
 }
